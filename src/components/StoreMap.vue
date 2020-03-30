@@ -11,7 +11,6 @@ import L from "leaflet";
 import "leaflet.markercluster/dist/leaflet.markercluster";
 import { OpenStreetMapProvider } from "leaflet-geosearch";
 
-import axios from "axios";
 export default {
   data() {
     return {
@@ -27,7 +26,6 @@ export default {
     };
   },
   async beforeMount() {
-    let stores = await axios.get("wpsl_stores");
     //console.log("Ecco gli stores", stores.data);
   },
   mounted() {
