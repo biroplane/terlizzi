@@ -77,7 +77,7 @@ export default {
         const user = firebase
           .auth()
           .createUserWithEmailAndPassword(this.email, this.password);
-        console.log("User creato ", user);
+        //console.log("User creato ", user);
         this.$router.replace({ name: "home" });
       } catch (error) {
         console.error("Errore creazione user ", error);

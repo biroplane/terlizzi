@@ -28,7 +28,7 @@ export default {
   },
   async beforeMount() {
     let stores = await axios.get("wpsl_stores");
-    console.log("Ecco gli stores", stores.data);
+    //console.log("Ecco gli stores", stores.data);
   },
   mounted() {
     this.createMap();
