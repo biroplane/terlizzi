@@ -74,7 +74,7 @@ export default {
   methods: {
     async signin() {
       try {
-        const user = firebase
+        firebase
           .auth()
           .createUserWithEmailAndPassword(this.email, this.password);
         //console.log("User creato ", user);

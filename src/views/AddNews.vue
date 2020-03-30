@@ -18,7 +18,6 @@
 </template>
 
 <script>
-import { db } from "../data/firebase";
 export default {
   data: () => ({
     title: ""
