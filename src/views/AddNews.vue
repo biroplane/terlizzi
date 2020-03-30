@@ -25,8 +25,8 @@ export default {
   }),
   methods: {
     addTitle() {
-      console.log("database ", db);
-      console.log("Aggiungo il titolo ->", this.title);
+      //console.log("database ", db);
+      //console.log("Aggiungo il titolo ->", this.title);
     }
   }
 };
